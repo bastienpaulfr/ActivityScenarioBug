@@ -12,9 +12,5 @@ class ActivityC : AppCompatActivity() {
         binding = ActivityCBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
-
-        binding.button4.setOnClickListener {
-            finish()
-        }
     }
 }
